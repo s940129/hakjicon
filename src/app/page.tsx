@@ -12,15 +12,15 @@ export default async function HomePage() {
 
   return (
     <section className="home">
-      <h1 className="home-title">무엇을 찾고 계신가요?</h1>
+      <h1 className="home-title">오늘은 어떤 책 살래? ✨</h1>
       <p className="home-sub">
-        학지사 도서를 검색하고, 같은 분야의 책을 추천받으세요.
+        학지사 책 검색하고, 같은 분야 책도 같이 찾아봐 💖
       </p>
       <SearchBar />
 
       {configured ? (
         <>
-          <h2 className="section-title">분야 둘러보기</h2>
+          <h2 className="section-title">최애 분야 골라골라 💖</h2>
           <CategoryChips categories={categories} />
         </>
       ) : (
