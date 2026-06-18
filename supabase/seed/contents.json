@@ -1,0 +1,31 @@
+[
+  { "title": "상담심리학의 기초", "author": "김민서", "category": "상담", "description": "상담의 기본 개념과 이론, 상담자의 태도와 윤리를 개관한 입문서.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "집단상담: 이론과 실제", "author": "이준호", "category": "상담", "description": "집단상담의 단계별 과정과 촉진 기법을 사례 중심으로 다룬다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "청소년 상담의 실제", "author": "박서연", "category": "상담", "description": "청소년 발달 특성을 고려한 상담 접근과 개입 전략.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "가족상담과 치료", "author": "정하늘", "category": "상담", "description": "가족 체계 관점에서의 상담 모델과 치료 기법을 소개한다.", "cover_url": null, "isbn": null, "link": null },
+
+  { "title": "교육과정의 이해", "author": "최도윤", "category": "교육", "description": "교육과정 개발의 원리와 설계·운영·평가 전반을 다룬다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "교육평가의 이론과 실제", "author": "한지우", "category": "교육", "description": "평가의 타당도·신뢰도와 문항 제작, 결과 활용을 설명한다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "교수학습 설계의 원리", "author": "오세훈", "category": "교육", "description": "효과적인 수업 설계를 위한 교수설계 모형과 전략.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "교육심리학", "author": "윤채원", "category": "교육", "description": "학습과 동기, 발달과 개인차에 대한 심리학적 이해.", "cover_url": null, "isbn": null, "link": null },
+
+  { "title": "특수교육학개론", "author": "강시우", "category": "특수교육", "description": "특수교육의 개념과 대상, 제도와 실제를 개관한 입문서.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "장애아동의 이해", "author": "임수아", "category": "특수교육", "description": "장애 유형별 특성과 교육적 요구를 이해하기 위한 기초.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "통합교육의 실제", "author": "배준영", "category": "특수교육", "description": "통합 환경에서의 교수 적합화와 협력 지원 전략.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "행동중재 전략", "author": "신예린", "category": "특수교육", "description": "긍정적 행동지원에 기반한 행동중재의 원리와 적용.", "cover_url": null, "isbn": null, "link": null },
+
+  { "title": "사회복지개론", "author": "문대현", "category": "사회복지", "description": "사회복지의 가치와 역사, 분야와 실천 방법을 개관한다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "사회복지실천론", "author": "조아인", "category": "사회복지", "description": "사회복지실천의 관계 형성과 면접, 개입 과정을 다룬다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "인간행동과 사회환경", "author": "황지호", "category": "사회복지", "description": "생애주기별 발달과 환경 체계의 상호작용을 이해한다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "지역사회복지론", "author": "남보라", "category": "사회복지", "description": "지역사회 조직화와 자원 연계, 복지전달체계를 설명한다.", "cover_url": null, "isbn": null, "link": null },
+
+  { "title": "유아교육개론", "author": "서미래", "category": "유아교육", "description": "유아교육의 철학과 발달 이론, 교육과정의 기초를 다룬다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "영유아 발달의 이해", "author": "류시현", "category": "유아교육", "description": "영유아기 신체·인지·정서·사회성 발달의 특징.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "놀이지도", "author": "권나윤", "category": "유아교육", "description": "놀이의 교육적 가치와 놀이 중심 지도 방법.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "유아 언어교육", "author": "고은성", "category": "유아교육", "description": "유아 언어발달의 원리와 통합적 언어교육 접근.", "cover_url": null, "isbn": null, "link": null },
+
+  { "title": "발달심리학", "author": "백서진", "category": "심리", "description": "태아기부터 노년기까지 전생애 발달의 주요 이론과 쟁점.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "성격심리학", "author": "표지민", "category": "심리", "description": "성격에 관한 주요 이론과 측정, 적용을 개관한다.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "인지심리학", "author": "도하준", "category": "심리", "description": "지각·기억·언어·사고 등 인지 과정에 대한 이해.", "cover_url": null, "isbn": null, "link": null },
+  { "title": "임상심리학의 이해", "author": "엄지안", "category": "심리", "description": "심리평가와 심리치료의 기초 및 임상 현장의 실제.", "cover_url": null, "isbn": null, "link": null }
+]

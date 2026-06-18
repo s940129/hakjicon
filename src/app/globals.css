@@ -1,0 +1,255 @@
+:root {
+  --bg: #f7f7f9;
+  --surface: #ffffff;
+  --border: #e4e4e9;
+  --text: #1c1c22;
+  --muted: #6b6b78;
+  --accent: #2b59c3;
+  --accent-soft: #e8eefb;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard", "Malgun Gothic", system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+  min-height: 60vh;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  padding: 24px;
+}
+
+/* 홈 */
+.home-title {
+  font-size: 28px;
+  margin: 8px 0 4px;
+}
+.home-sub {
+  color: var(--muted);
+  margin: 0 0 24px;
+}
+
+/* 검색창 */
+.searchbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.searchbar input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 16px;
+  background: var(--surface);
+}
+.searchbar button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* 분야 칩 */
+.section-title {
+  font-size: 18px;
+  margin: 24px 0 12px;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.chip {
+  padding: 8px 14px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* 결과 헤딩 */
+.results-heading {
+  font-size: 20px;
+  margin: 8px 0 20px;
+}
+.results-heading .count {
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 400;
+}
+.empty {
+  color: var(--muted);
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* 그리드 + 카드 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+.card-cover {
+  aspect-ratio: 3 / 4;
+  background: var(--accent-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-cover-fallback {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 15px;
+}
+.card-body {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card-category {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+}
+.card-title {
+  font-size: 14px;
+  line-height: 1.35;
+}
+.card-author {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* 상세 */
+.detail-main {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.detail-cover {
+  flex: 0 0 200px;
+  aspect-ratio: 3 / 4;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.detail-info h1 {
+  font-size: 24px;
+  margin: 8px 0;
+}
+.detail-author {
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+.detail-desc {
+  margin: 0 0 20px;
+}
+.detail-link {
+  display: inline-block;
+  padding: 10px 18px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+
+/* 안내/오류 */
+.notice,
+.notfound {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.notice pre {
+  background: var(--bg);
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13px;
+}
+.back {
+  margin-top: 32px;
+  color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  .detail-main {
+    flex-direction: column;
+  }
+  .detail-cover {
+    flex-basis: auto;
+    max-width: 200px;
+  }
+}
